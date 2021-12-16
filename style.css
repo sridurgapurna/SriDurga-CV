@@ -1,0 +1,121 @@
+/* this is our CSS page, which provides style to our webpage*/
+
+
+body { 
+
+    line-height: 24px; 
+    background: url(images/noise.jpg); } /* this line is where you should like to a background of your choice, I prefer to use images, and mine is called 'noise' in the folder 'images.*/
+
+.mypicture { /*This means that when we click on the photo of you, it rotates slightly, and it also rounds the image.  */
+    transition: transform .7s ease-in-out;
+    border-radius: 30%;
+    height: auto;
+}
+
+
+.mypicture:hover {
+    transform: rotate(5deg);
+
+}
+
+#contact-form { /* This aligns the test, best to leave this one*/ 
+    text-align: center;
+}
+.contact-title { /* same here */ 
+    text-align: center;
+}
+
+.clear { 
+    clear: both; }
+    
+#page-wrap { 
+    width: 800px; 
+    margin: 40px auto 60px; }
+    
+#pic {   /* this positions the image of you to right */
+    float: right; 
+    margin: -30px 0 0 0; }
+
+h1 {  /* this style everything in the html document with the 'H1 tag'. Feel free to change the font size, etc. if you wish.  */
+    margin: 0 0 16px 0; 
+    padding: 0 0 16px 0; 
+    font-size: 42px; 
+    font-weight: bold; 
+    letter-spacing: -2px; 
+    border-bottom: 2px solid rgb(0, 0, 0); }
+
+h1:hover { /* when you hover over the title of the doc 'my name CV' it changes to colour to blue, feel free to change the colour. */
+    color:rgb(60, 141, 179);
+}
+
+h2 { /* this style all 'H2s', feel free to change the font style / family. */
+    font-size: 15px;
+    margin: 0 0 6px 0; 
+    position: relative; 
+    font-family: Georgia, Serif;
+    font-style: italic; 
+
+}
+
+h2 span { /* same here */
+    position: absolute; 
+    bottom: 0;
+    right: 0; 
+    font-style: italic; 
+    font-family: Georgia, Serif; 
+    font-size: 16px; 
+    color: rgb(0, 0, 0); 
+    font-weight: normal;
+    
+}
+
+p { /* same here but with the P tags */
+    margin: 0 0 16px 0;
+    font-family: Georgia, Serif;
+    font-style: italic; 
+
+
+}
+
+a { /* same here but with the A tags */
+     color: rgb(0, 0, 0);
+    text-decoration: none; 
+    border-bottom: 1px dotted rgb(0, 0, 0); }
+
+a:hover { 
+    border-bottom-style: solid; 
+    color: black; }
+
+ul { /* this refers to all bullet pointed lists */
+     margin: 0 0 32px 17px; }
+
+#objective { /* This styles the main intro message  */
+     width: 500px; 
+     float: left; }
+
+#objective p {
+    font-family: Georgia, Serif;
+    font-style: italic; 
+    color: rgb(0, 0, 0); }
+
+dt {  /* this is all the headings like 'education & certifications' , 'experience' etc  */
+    font-style:oblique;
+    font-weight: bold; 
+    font-size: 18px; 
+    text-align: right; 
+    padding: 0 26px 0 0; 
+    width: 150px; 
+    float: left; 
+    height: 100px; 
+    border-right: 1px solid #999;  }
+
+dd { /* these are the subheadings under each title */
+    width: 600px; 
+    float: right; }
+dd.clear {
+    float: none; 
+    margin: 0; 
+    height: 15px; }
+    
+
+
